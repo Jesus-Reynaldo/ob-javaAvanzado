@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57acd156-ba33-4d42-9e78-64de9c9c3b04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ob-javaAvanzado.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcional/Funcionales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcional/HigherOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcional/Main.java" afterDir="false" />
+    <list default="true" id="57acd156-ba33-4d42-9e78-64de9c9c3b04" name="Changes" comment="Programación funcional">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RendimientoRecursion/Recursiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcional/Funcionales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramcionFuncional/Funcionales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcional/HigherOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramcionFuncional/HigherOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcional/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgramcionFuncional/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mataz/Downloads/EspressoBlackBox.zip&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/mataz/Downloads/EspressoBlackBox.zip",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.HigherOrder">
+}]]></component>
+  <component name="RunManager" selected="Application.Recursiva">
     <configuration name="HigherOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcional.HigherOrder" />
+      <option name="MAIN_CLASS_NAME" value="ProgramcionFuncional.HigherOrder" />
       <module name="ob-javaAvanzado" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcional.*" />
+          <option name="PATTERN" value="ProgramcionFuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +60,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcional.Main" />
+      <option name="MAIN_CLASS_NAME" value="ProgramcionFuncional.Main" />
       <module name="ob-javaAvanzado" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcional.*" />
+          <option name="PATTERN" value="ProgramcionFuncional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RendimientoRecursion.Recursiva" />
+      <module name="ob-javaAvanzado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RendimientoRecursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +87,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HigherOrder" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Recursiva" />
+        <item itemvalue="Application.ProgramcionFuncional.HigherOrder" />
+        <item itemvalue="Application.ProgramcionFuncional.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +102,21 @@
       <option name="presentableId" value="Default" />
       <updated>1671152180584</updated>
     </task>
+    <task id="LOCAL-00001" summary="Programación funcional">
+      <created>1672954288503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672954288503</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Programación funcional">
+      <created>1672954351486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672954351486</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Programación funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programación funcional" />
   </component>
 </project>

@@ -1,8 +1,7 @@
-package funcional;
+package ProgramcionFuncional;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.function.Function;
 import java.util.stream.Stream;
 
 public class HigherOrder {
@@ -37,6 +36,16 @@ public class HigherOrder {
                 });
         System.out.println("Mi suma de pares es: "+resulto );
         //resulto.forEach((x)-> System.out.println(x));
+        //La otra forma sin utilizar la programacion funcional es la forma imperativa
+        int sumaTotal=0;
+        for(int numero:numeros){
+            numero = numero*2;
+            if(numero%2!=0){
+                continue;
+            }
+            sumaTotal+=numero;
+        }
+        System.out.println("Suma total: "+sumaTotal);
     }
 
     public static String toMayuscula(String nombre){//Esto es un metodo pero hace lo mismo de la funcuin de alto nivel

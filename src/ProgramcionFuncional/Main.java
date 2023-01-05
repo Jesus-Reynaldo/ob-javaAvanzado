@@ -1,4 +1,4 @@
-package funcional;
+package ProgramcionFuncional;
 
 public class Main {
     private static  int contador=0;
